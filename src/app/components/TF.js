@@ -33,7 +33,7 @@ export default function TF() {
 
   return (
     <div className="flex flex-col items-center text-center">
-      <div className="flex flex-col items-center sticky top-0 pt-16 w-[100vw] bg-white">
+      <div className="flex flex-col items-center sticky top-0 pt-8 w-[100vw] bg-white">
         <div className="flex flex-col mb-6">
           <div className="flex w-[24rem]">
             <p className="mr-2">Select TF: </p>
