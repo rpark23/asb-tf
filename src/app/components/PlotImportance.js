@@ -41,8 +41,8 @@ export default function PlotImportance(props) {
       labels: pos,
       datasets: [{
         label: 'Importance Score 1',
-        backgroundColor: 'rgba(255,0,0,0.5)',
-        borderColor: 'red',
+        backgroundColor: 'rgba(0,0,255,0.5)',
+        borderColor: 'blue',
         borderWidth: 1,
         outlierColor: '#999999',
         padding: 10,
@@ -50,8 +50,8 @@ export default function PlotImportance(props) {
         data: importance1
       }, {
         label: 'Importance Score 2',
-        backgroundColor: 'rgba(0,255,0,0.5)',
-        borderColor: 'green',
+        backgroundColor: 'rgba(255,165,0,0.5)',
+        borderColor: 'orange',
         borderWidth: 1,
         outlierColor: '#999999',
         padding: 10,
@@ -59,8 +59,8 @@ export default function PlotImportance(props) {
         data: importance2
       }, {
         label: 'Importance Score 3',
-        backgroundColor: 'rgba(0,0,255,0.5)',
-        borderColor: 'blue',
+        backgroundColor: 'rgba(255,0,0,0.5)',
+        borderColor: 'red',
         borderWidth: 1,
         outlierColor: '#999999',
         padding: 10,
@@ -68,8 +68,8 @@ export default function PlotImportance(props) {
         data: importance3
       }, {
         label: 'Importance Score 4',
-        backgroundColor: 'rgba(255,165,0,0.5)',
-        borderColor: 'orange',
+        backgroundColor: 'rgba(0,255,0,0.5)',
+        borderColor: 'green',
         borderWidth: 1,
         outlierColor: '#999999',
         padding: 10,

@@ -7,7 +7,7 @@ import Logo from "./Logo"
 export default function TF() {
   const motifs = require("../../data/motifs.json");
 
-  const [tfName, setTfName] = useState("HA-NRF1");
+  const [tfName, setTfName] = useState("SP1");
   const [motifName, setMotifName] = useState(motifs[tfName][0]);
   const [pfm, setPfm] = useState(null);
   const [info, setInfo] = useState(null);
